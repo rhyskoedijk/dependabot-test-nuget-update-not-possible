@@ -1,0 +1,1 @@
+# dependabot-test-nuget-update-not-possible
