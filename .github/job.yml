@@ -3,10 +3,10 @@ job:
   allowed-updates:
     - update-type: all
   dependency-groups:
-    - name: all
+    - name: microsoft
       rules:
         patterns:
-          - '*'
+          - 'Microsoft.*'
   source:
     provider: github
     repo: rhyskoedijk/dependabot-test-nuget-update-not-possible
