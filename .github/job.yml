@@ -1,0 +1,13 @@
+job:
+  package-manager: nuget
+  allowed-updates:
+    - update-type: all
+  dependency-groups:
+    - name: all
+      rules:
+        patterns:
+          - '*'
+  source:
+    provider: github
+    repo: rhyskoedijk/dependabot-test-nuget-update-not-possible
+    directory: /
